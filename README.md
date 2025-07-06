@@ -1,20 +1,36 @@
-# NBA Game Predictor
+# 🏀 NBA Game Predictor
 
-This project builds a predictive model to forecast NBA game outcomes based on past performance statistics. Using **Python** and machine learning techniques, the model analyzes a team's recent games and applies a **ridge regression** model to predict the likelihood of winning or losing against a specific opponent. The model achieves a **64% accuracy** rate, making it a valuable tool for analyzing NBA matchups.
+A machine learning model that forecasts NBA game outcomes using historical performance data. Built with **Python**, it analyzes recent matchups and predicts win/loss results with **64% accuracy** using **ridge regression**.
 
-## Project Overview
+---
 
-This NBA Game Predictor project leverages statistical data from teams’ past performances to forecast game results. The model is trained using key performance metrics such as field goals, minutes played, three-point attempts, and shot attempts from each team’s last 10 games against specific opponents. By using **pandas**, **scikit-learn**, and **numpy** in **Jupyter Notebook**, the data is prepared, analyzed, and fed into a **ridge regression** model.
+## 📈 Overview
 
-## Technologies Used
+This project uses a team's last 10 games against specific opponents to predict the outcome of upcoming NBA matches. Key stats include:
 
-- **Python**: Core programming language for data processing and model training.
-- **pandas**: For data manipulation and preparation.
-- **scikit-learn**: Machine learning library used to implement the ridge regression model.
-- **numpy**: For numerical operations and handling data arrays.
-- **Jupyter Notebook**: Environment for developing and visualizing the model.
+- Field goals
+- Minutes played
+- Three-point attempts
+- Shot attempts
 
-## Features
+The data is processed and modeled using a **ridge regression** approach in **Jupyter Notebook** for fast iteration and visualization.
 
-- **Predictive Accuracy**: Achieves 64% accuracy in predicting NBA game outcomes based on historical data.
-- **Data-Driven Insights**: Uses a team’s last 10 games against specific opponents to build meaningful predictions.
+---
+
+## 🛠️ Technologies Used
+
+- **Python** – core language for data and modeling  
+- **pandas** – data manipulation and cleaning  
+- **scikit-learn** – machine learning and regression modeling  
+- **numpy** – numerical operations and arrays  
+- **Jupyter Notebook** – development and analysis environment
+
+---
+
+## 🎯 Features
+
+- ✅ **64% predictive accuracy** on historical matchup data  
+- 📊 **Data-driven**: Uses last 10 games per opponent to drive predictions  
+- 🔍 **Readable model**: Ridge regression enables interpretability and fast training
+
+
